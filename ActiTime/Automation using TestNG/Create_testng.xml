@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Create Customer_TestNG">
+        <classes>
+            <class name="Programs.jan_20.POM_TestCases.CustomerPageTC">
+                <methods>
+                    <include name="clickOnTask"/>
+                    <include name="clickOnProjectsandCustomer"/>
+                    <include name="clickOnCreateCustomer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Project_TestNG">
+        <classes>
+            <class name="Programs.jan_20.POM_TestCases.ProjectPageTC">
+                <methods>
+                    <include name="clickOnTask"/>
+                    <include name="clickOnProjectsandCustomer"/>
+                    <include name="clickOnCreateProject"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Task_TestNG">
+        <classes>
+            <class name="Programs.jan_20.POM_TestCases.TasksPageTC">
+                <methods>
+                    <include name="clickOnTask"/>
+                    <include name="createNewTasks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

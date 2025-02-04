@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/ASUS/IdeaProjects/actitime_automation/src/test/java/Programs/jan_20/POM_TestCases/TasksPageTC.java">
+        <classes>
+            <class name="Programs.jan_20.POM_TestCases.TasksPageTC">
+                <methods>
+                    <include name="clickOnTask"/>
+                    <include name="createNewTasks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

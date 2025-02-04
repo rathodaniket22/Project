@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="CustomerTC">
+        <classes>
+            <class name="Programs.jan_20.POM_TestCases.CustomerPageTC">
+                <methods>
+                    <include name="clickOnTask"/>
+                    <include name="verifyTaskTab"/>
+                    <include name="clickOnProjectsandCustomer"/>
+                    <include name="clickOnCreateCustomer"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

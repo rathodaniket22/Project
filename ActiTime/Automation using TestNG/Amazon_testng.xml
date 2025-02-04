@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="AmazonDashboardTC">
+        <classes>
+            <class name="Programs.jan_22.Amazon_TestCases.AmazonDashboardTC">
+                <methods>
+                    <include name="verifySignInOption"/>
+                    <include name="verifyFunctionalityOfDashboard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="AmazonLoginTC">
+        <classes>
+            <class name="Programs.jan_22.Amazon_TestCases.AmazonLoginTC">
+                <methods>
+                    <include name="verifyEmailLoginField"/>
+                    <include name="verifyFunctionalityOfEmail"/>
+                    <include name="verifyPasswordField"/>
+                    <include name="verifyFunctionalityOfPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
